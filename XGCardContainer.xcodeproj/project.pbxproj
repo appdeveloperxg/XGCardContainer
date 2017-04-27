@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6AD3F41EB09EC00016D027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD3F31EB09EC00016D027 /* main.m */; };
+		CE6AD3F71EB09EC00016D027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD3F61EB09EC00016D027 /* AppDelegate.m */; };
+		CE6AD3FA1EB09EC00016D027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD3F91EB09EC00016D027 /* ViewController.m */; };
+		CE6AD3FD1EB09EC00016D027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD3FB1EB09EC00016D027 /* Main.storyboard */; };
+		CE6AD4001EB09EC10016D027 /* XGCardContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD3FE1EB09EC10016D027 /* XGCardContainer.xcdatamodeld */; };
+		CE6AD4021EB09EC10016D027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4011EB09EC10016D027 /* Assets.xcassets */; };
+		CE6AD4051EB09EC10016D027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4031EB09EC10016D027 /* LaunchScreen.storyboard */; };
+		CE6AD4101EB09EC20016D027 /* XGCardContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD40F1EB09EC20016D027 /* XGCardContainerTests.m */; };
+		CE6AD41B1EB09EC20016D027 /* XGCardContainerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD41A1EB09EC20016D027 /* XGCardContainerUITests.m */; };
+		CE6AD42B1EB09FF70016D027 /* XGCardContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD42A1EB09FF70016D027 /* XGCardContainer.m */; };
+		CE6AD4311EB0A59F0016D027 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AD4301EB0A59F0016D027 /* CardView.m */; };
+		CE6AD43A1EB0A7710016D027 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4331EB0A7710016D027 /* 1.jpg */; };
+		CE6AD43B1EB0A7710016D027 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4341EB0A7710016D027 /* 2.jpg */; };
+		CE6AD43C1EB0A7710016D027 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4351EB0A7710016D027 /* 3.jpg */; };
+		CE6AD43D1EB0A7710016D027 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4361EB0A7710016D027 /* 4.jpg */; };
+		CE6AD43E1EB0A7710016D027 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4371EB0A7710016D027 /* 5.jpg */; };
+		CE6AD43F1EB0A7710016D027 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4381EB0A7710016D027 /* 6.jpg */; };
+		CE6AD4401EB0A7710016D027 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6AD4391EB0A7710016D027 /* 7.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6AD40C1EB09EC10016D027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6AD3E71EB09EBF0016D027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6AD3EE1EB09EC00016D027;
+			remoteInfo = XGCardContainer;
+		};
+		CE6AD4171EB09EC20016D027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6AD3E71EB09EBF0016D027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6AD3EE1EB09EC00016D027;
+			remoteInfo = XGCardContainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6AD3EF1EB09EC00016D027 /* XGCardContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGCardContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6AD3F31EB09EC00016D027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6AD3F51EB09EC00016D027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6AD3F61EB09EC00016D027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6AD3F81EB09EC00016D027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE6AD3F91EB09EC00016D027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE6AD3FC1EB09EC00016D027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6AD3FF1EB09EC10016D027 /* XGCardContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XGCardContainer.xcdatamodel; sourceTree = "<group>"; };
+		CE6AD4011EB09EC10016D027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6AD4041EB09EC10016D027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6AD4061EB09EC10016D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6AD40B1EB09EC10016D027 /* XGCardContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGCardContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6AD40F1EB09EC20016D027 /* XGCardContainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGCardContainerTests.m; sourceTree = "<group>"; };
+		CE6AD4111EB09EC20016D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6AD4161EB09EC20016D027 /* XGCardContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGCardContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6AD41A1EB09EC20016D027 /* XGCardContainerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGCardContainerUITests.m; sourceTree = "<group>"; };
+		CE6AD41C1EB09EC20016D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6AD4291EB09FF70016D027 /* XGCardContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCardContainer.h; sourceTree = "<group>"; };
+		CE6AD42A1EB09FF70016D027 /* XGCardContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCardContainer.m; sourceTree = "<group>"; };
+		CE6AD42F1EB0A59F0016D027 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		CE6AD4301EB0A59F0016D027 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		CE6AD4331EB0A7710016D027 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CE6AD4341EB0A7710016D027 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CE6AD4351EB0A7710016D027 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CE6AD4361EB0A7710016D027 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CE6AD4371EB0A7710016D027 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CE6AD4381EB0A7710016D027 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CE6AD4391EB0A7710016D027 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6AD3EC1EB09EC00016D027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4081EB09EC10016D027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4131EB09EC20016D027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6AD3E61EB09EBF0016D027 = {
+			isa = PBXGroup;
+			children = (
+				CE6AD3F11EB09EC00016D027 /* XGCardContainer */,
+				CE6AD40E1EB09EC10016D027 /* XGCardContainerTests */,
+				CE6AD4191EB09EC20016D027 /* XGCardContainerUITests */,
+				CE6AD3F01EB09EC00016D027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6AD3F01EB09EC00016D027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD3EF1EB09EC00016D027 /* XGCardContainer.app */,
+				CE6AD40B1EB09EC10016D027 /* XGCardContainerTests.xctest */,
+				CE6AD4161EB09EC20016D027 /* XGCardContainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6AD3F11EB09EC00016D027 /* XGCardContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD4321EB0A7710016D027 /* image */,
+				CE6AD4281EB09FAC0016D027 /* XGCardContainer */,
+				CE6AD3F51EB09EC00016D027 /* AppDelegate.h */,
+				CE6AD3F61EB09EC00016D027 /* AppDelegate.m */,
+				CE6AD3F81EB09EC00016D027 /* ViewController.h */,
+				CE6AD3F91EB09EC00016D027 /* ViewController.m */,
+				CE6AD42F1EB0A59F0016D027 /* CardView.h */,
+				CE6AD4301EB0A59F0016D027 /* CardView.m */,
+				CE6AD3FB1EB09EC00016D027 /* Main.storyboard */,
+				CE6AD4011EB09EC10016D027 /* Assets.xcassets */,
+				CE6AD4031EB09EC10016D027 /* LaunchScreen.storyboard */,
+				CE6AD4061EB09EC10016D027 /* Info.plist */,
+				CE6AD3FE1EB09EC10016D027 /* XGCardContainer.xcdatamodeld */,
+				CE6AD3F21EB09EC00016D027 /* Supporting Files */,
+			);
+			path = XGCardContainer;
+			sourceTree = "<group>";
+		};
+		CE6AD3F21EB09EC00016D027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD3F31EB09EC00016D027 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6AD40E1EB09EC10016D027 /* XGCardContainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD40F1EB09EC20016D027 /* XGCardContainerTests.m */,
+				CE6AD4111EB09EC20016D027 /* Info.plist */,
+			);
+			path = XGCardContainerTests;
+			sourceTree = "<group>";
+		};
+		CE6AD4191EB09EC20016D027 /* XGCardContainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD41A1EB09EC20016D027 /* XGCardContainerUITests.m */,
+				CE6AD41C1EB09EC20016D027 /* Info.plist */,
+			);
+			path = XGCardContainerUITests;
+			sourceTree = "<group>";
+		};
+		CE6AD4281EB09FAC0016D027 /* XGCardContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD4291EB09FF70016D027 /* XGCardContainer.h */,
+				CE6AD42A1EB09FF70016D027 /* XGCardContainer.m */,
+			);
+			path = XGCardContainer;
+			sourceTree = "<group>";
+		};
+		CE6AD4321EB0A7710016D027 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AD4331EB0A7710016D027 /* 1.jpg */,
+				CE6AD4341EB0A7710016D027 /* 2.jpg */,
+				CE6AD4351EB0A7710016D027 /* 3.jpg */,
+				CE6AD4361EB0A7710016D027 /* 4.jpg */,
+				CE6AD4371EB0A7710016D027 /* 5.jpg */,
+				CE6AD4381EB0A7710016D027 /* 6.jpg */,
+				CE6AD4391EB0A7710016D027 /* 7.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6AD3EE1EB09EC00016D027 /* XGCardContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6AD41F1EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainer" */;
+			buildPhases = (
+				CE6AD3EB1EB09EC00016D027 /* Sources */,
+				CE6AD3EC1EB09EC00016D027 /* Frameworks */,
+				CE6AD3ED1EB09EC00016D027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XGCardContainer;
+			productName = XGCardContainer;
+			productReference = CE6AD3EF1EB09EC00016D027 /* XGCardContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6AD40A1EB09EC10016D027 /* XGCardContainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6AD4221EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainerTests" */;
+			buildPhases = (
+				CE6AD4071EB09EC10016D027 /* Sources */,
+				CE6AD4081EB09EC10016D027 /* Frameworks */,
+				CE6AD4091EB09EC10016D027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6AD40D1EB09EC10016D027 /* PBXTargetDependency */,
+			);
+			name = XGCardContainerTests;
+			productName = XGCardContainerTests;
+			productReference = CE6AD40B1EB09EC10016D027 /* XGCardContainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6AD4151EB09EC20016D027 /* XGCardContainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6AD4251EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainerUITests" */;
+			buildPhases = (
+				CE6AD4121EB09EC20016D027 /* Sources */,
+				CE6AD4131EB09EC20016D027 /* Frameworks */,
+				CE6AD4141EB09EC20016D027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6AD4181EB09EC20016D027 /* PBXTargetDependency */,
+			);
+			name = XGCardContainerUITests;
+			productName = XGCardContainerUITests;
+			productReference = CE6AD4161EB09EC20016D027 /* XGCardContainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6AD3E71EB09EBF0016D027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭晓广";
+				TargetAttributes = {
+					CE6AD3EE1EB09EC00016D027 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9WEX89NG79;
+						ProvisioningStyle = Automatic;
+					};
+					CE6AD40A1EB09EC10016D027 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FCLVD3QYK3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE6AD3EE1EB09EC00016D027;
+					};
+					CE6AD4151EB09EC20016D027 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FCLVD3QYK3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE6AD3EE1EB09EC00016D027;
+					};
+				};
+			};
+			buildConfigurationList = CE6AD3EA1EB09EBF0016D027 /* Build configuration list for PBXProject "XGCardContainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6AD3E61EB09EBF0016D027;
+			productRefGroup = CE6AD3F01EB09EC00016D027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6AD3EE1EB09EC00016D027 /* XGCardContainer */,
+				CE6AD40A1EB09EC10016D027 /* XGCardContainerTests */,
+				CE6AD4151EB09EC20016D027 /* XGCardContainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6AD3ED1EB09EC00016D027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6AD43F1EB0A7710016D027 /* 6.jpg in Resources */,
+				CE6AD4051EB09EC10016D027 /* LaunchScreen.storyboard in Resources */,
+				CE6AD43E1EB0A7710016D027 /* 5.jpg in Resources */,
+				CE6AD43D1EB0A7710016D027 /* 4.jpg in Resources */,
+				CE6AD43A1EB0A7710016D027 /* 1.jpg in Resources */,
+				CE6AD43B1EB0A7710016D027 /* 2.jpg in Resources */,
+				CE6AD43C1EB0A7710016D027 /* 3.jpg in Resources */,
+				CE6AD4401EB0A7710016D027 /* 7.jpg in Resources */,
+				CE6AD4021EB09EC10016D027 /* Assets.xcassets in Resources */,
+				CE6AD3FD1EB09EC00016D027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4091EB09EC10016D027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4141EB09EC20016D027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6AD3EB1EB09EC00016D027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6AD4001EB09EC10016D027 /* XGCardContainer.xcdatamodeld in Sources */,
+				CE6AD3FA1EB09EC00016D027 /* ViewController.m in Sources */,
+				CE6AD3F71EB09EC00016D027 /* AppDelegate.m in Sources */,
+				CE6AD3F41EB09EC00016D027 /* main.m in Sources */,
+				CE6AD42B1EB09FF70016D027 /* XGCardContainer.m in Sources */,
+				CE6AD4311EB0A59F0016D027 /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4071EB09EC10016D027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6AD4101EB09EC20016D027 /* XGCardContainerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6AD4121EB09EC20016D027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6AD41B1EB09EC20016D027 /* XGCardContainerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6AD40D1EB09EC10016D027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6AD3EE1EB09EC00016D027 /* XGCardContainer */;
+			targetProxy = CE6AD40C1EB09EC10016D027 /* PBXContainerItemProxy */;
+		};
+		CE6AD4181EB09EC20016D027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6AD3EE1EB09EC00016D027 /* XGCardContainer */;
+			targetProxy = CE6AD4171EB09EC20016D027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6AD3FB1EB09EC00016D027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6AD3FC1EB09EC00016D027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6AD4031EB09EC10016D027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6AD4041EB09EC10016D027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6AD41D1EB09EC20016D027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6AD41E1EB09EC20016D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6AD4201EB09EC20016D027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WEX89NG79;
+				INFOPLIST_FILE = XGCardContainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE6AD4211EB09EC20016D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WEX89NG79;
+				INFOPLIST_FILE = XGCardContainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE6AD4231EB09EC20016D027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FCLVD3QYK3;
+				INFOPLIST_FILE = XGCardContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGCardContainer.app/XGCardContainer";
+			};
+			name = Debug;
+		};
+		CE6AD4241EB09EC20016D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FCLVD3QYK3;
+				INFOPLIST_FILE = XGCardContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGCardContainer.app/XGCardContainer";
+			};
+			name = Release;
+		};
+		CE6AD4261EB09EC20016D027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FCLVD3QYK3;
+				INFOPLIST_FILE = XGCardContainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XGCardContainer;
+			};
+			name = Debug;
+		};
+		CE6AD4271EB09EC20016D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FCLVD3QYK3;
+				INFOPLIST_FILE = XGCardContainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fvdv.com.XGCardContainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XGCardContainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6AD3EA1EB09EBF0016D027 /* Build configuration list for PBXProject "XGCardContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6AD41D1EB09EC20016D027 /* Debug */,
+				CE6AD41E1EB09EC20016D027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6AD41F1EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6AD4201EB09EC20016D027 /* Debug */,
+				CE6AD4211EB09EC20016D027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6AD4221EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6AD4231EB09EC20016D027 /* Debug */,
+				CE6AD4241EB09EC20016D027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6AD4251EB09EC20016D027 /* Build configuration list for PBXNativeTarget "XGCardContainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6AD4261EB09EC20016D027 /* Debug */,
+				CE6AD4271EB09EC20016D027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE6AD3FE1EB09EC10016D027 /* XGCardContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE6AD3FF1EB09EC10016D027 /* XGCardContainer.xcdatamodel */,
+			);
+			currentVersion = CE6AD3FF1EB09EC10016D027 /* XGCardContainer.xcdatamodel */;
+			path = XGCardContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE6AD3E71EB09EBF0016D027 /* Project object */;
+}
